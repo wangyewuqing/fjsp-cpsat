@@ -1,0 +1,3 @@
+instance,jobs,machines,ops,makespan,best_known,gap_pct,runtime_s,verified
+mk01,10,6,55,57,40,42.5,0.0003,yes
+mk03,15,8,150,313,204,53.4,0.0012,yes
