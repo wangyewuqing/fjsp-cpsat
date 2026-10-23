@@ -60,8 +60,8 @@ def verify_plan(jobs, n_mach, plan):
 
 if __name__ == "__main__":
     import sys
-    from fjsp_parser import load_brandimarte
-    from baseline import list_schedule
+    from .fjsp_parser import load_brandimarte
+    from src.baseline import list_schedule
 
     path = sys.argv[1] if len(sys.argv) > 1 else "data/mk01.txt"
     jobs, n_mach = load_brandimarte(path)
