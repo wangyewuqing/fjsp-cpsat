@@ -30,7 +30,7 @@ def lower_bound(jobs, n_mach):
 
 if __name__ == "__main__":
     import sys
-    from parser import load_brandimarte
+    from fjsp_parser import load_brandimarte
 
     path = sys.argv[1] if len(sys.argv) > 1 else "data/mk01.txt"
     jobs, n_mach = load_brandimarte(path)
