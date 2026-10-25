@@ -1,0 +1,2 @@
+instance,ops,machines,baseline,cpsat,status,improve_pct,gap_vs_best_pct,bound,gap_to_bound_pct,time_limit,runtime_s,verified
+mk06,150,10,91,59,FEASIBLE,35.16,1.72,51,15.69,300.0,300.06,yes
