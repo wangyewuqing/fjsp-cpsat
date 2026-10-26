@@ -1,0 +1,2 @@
+instance,ops,machines,families,setup_time,mean_op_time,setup_over_mean,makespan_no_setup,makespan_setup,increase_pct,total_setup_time,status,runtime_s,verified
+mk04,90,8,3,15,3.6,4.17,60,137,128.33,450,FEASIBLE,300.2,yes
