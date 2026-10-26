@@ -1,0 +1,9 @@
+instance,ops,machines,families,setup_time,mean_op_time,setup_over_mean,makespan_no_setup,makespan_setup,increase_pct,total_setup_time,status,runtime_s,verified
+mk01,55,6,3,0,2.78,0.0,40,40,0.0,0,OPTIMAL,0.39,yes
+mk01,55,6,3,15,2.78,5.39,40,91,127.5,180,FEASIBLE,60.09,yes
+mk01,55,6,3,45,2.78,16.18,40,151,277.5,540,OPTIMAL,4.23,yes
+mk01,55,6,3,90,2.78,32.35,40,241,502.5,1080,OPTIMAL,4.54,yes
+mk05,106,4,3,0,6.34,0.0,172,172,0.0,0,FEASIBLE,60.2,yes
+mk05,106,4,3,15,6.34,2.37,172,282,63.95,285,FEASIBLE,60.19,yes
+mk05,106,4,3,45,6.34,7.1,172,317,84.3,360,FEASIBLE,60.21,yes
+mk05,106,4,3,90,6.34,14.2,172,397,130.81,720,FEASIBLE,60.15,yes
