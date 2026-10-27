@@ -1,0 +1,11 @@
+instance,jobs,machines,ops,best_known,baseline_makespan,baseline_gap_pct,cpsat_makespan,cpsat_status,cpsat_improve_pct,cpsat_gap_vs_best_pct,lower_bound,mk_over_lb,baseline_verified,cpsat_verified
+mk01,10,6,55,40,57,42.5,40,OPTIMAL,29.82,0.0,26,2.19,yes,yes
+mk02,10,6,58,26,62,138.5,26,OPTIMAL,58.06,0.0,24,2.58,yes,yes
+mk03,15,8,150,204,313,53.4,204,OPTIMAL,34.82,0.0,102,3.07,yes,yes
+mk04,15,8,90,60,91,51.7,60,OPTIMAL,34.07,0.0,41,2.22,yes,yes
+mk05,15,4,106,173,233,34.7,172,OPTIMAL,26.18,-0.58,168,1.39,yes,yes
+mk06,10,10,150,58,91,56.9,59,FEASIBLE,35.16,1.72,33,2.76,yes,yes
+mk07,20,5,100,139,204,46.8,139,OPTIMAL,31.86,0.0,130,1.57,yes,yes
+mk08,20,10,225,523,648,23.9,523,OPTIMAL,19.29,0.0,249,2.6,yes,yes
+mk09,20,10,240,307,443,44.3,307,OPTIMAL,30.7,0.0,221,2.0,yes,yes
+mk10,20,15,240,197,386,95.9,219,FEASIBLE,43.26,11.17,124,3.11,yes,yes

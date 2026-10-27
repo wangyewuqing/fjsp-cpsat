@@ -62,6 +62,10 @@ def main(csv_path=None, out=None):
              fontsize=7.2, color="#666666")
     out.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(out, bbox_inches="tight")
+    # docs/ 里再放一份：README 与技术报告都从 docs/ 引图
+    docs_copy = out.parent.parent / "docs" / out.name
+    if docs_copy.parent.exists() and docs_copy.parent != out.parent:
+        fig.savefig(docs_copy, bbox_inches="tight")
     print("图已保存 ->", out)
     return 0
 

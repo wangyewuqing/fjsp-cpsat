@@ -1,8 +1,4 @@
-ortools>=9.8
-pandas
-numpy
-matplotlib
-plotly
-streamlit
+﻿ortools>=9.8,<10
 matplotlib>=3.8
+# Streamlit 交互演示（可选）
 streamlit>=1.30
